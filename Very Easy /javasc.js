@@ -1,4 +1,13 @@
-var num1 = 10;
-var num2 = 5;
+const num1 = parseInt(prompt("Enter the first number : "));
+const num2 = parseInt(prompt("Enter the second number : "));
 
-console.log(`The difference between these numbers is: ${num1 - num2}`);
+
+function min(num1, num2) {
+    if (num1 < num2) {
+        return num1;
+    }
+    else if (num1 > num2) {
+        return num2;
+    }
+
+  }
