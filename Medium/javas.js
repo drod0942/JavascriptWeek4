@@ -1,44 +1,52 @@
-while (true) {
+let decd = true;
+
+while (decd) {
   const num = parseInt(prompt("Enter Number: (-1 to stop)"));
 
-  if (num === -1){
-      break;
+  switch (num) {
+    case -1:
+        decd = false;
+        break;
+    case 1:
+        window.alert(`The Month for ${num} is: January`);
+        break;
+    case 2:
+        window.alert(`The Month for ${num} is: February`);
+        break;
+    case 3:
+        window.alert(`The Month for ${num} is: March`);
+        break;
+    case 4:
+        window.alert(`The Month for ${num} is: April`);
+        break;
+    case 5:
+        window.alert(`The Month for ${num} is: May`);
+        break;
+    case 6:
+        window.alert(`The Month for ${num} is: June`);
+        break;
+    case 7:
+        window.alert(`The Month for ${num} is: July`);
+        break;
+    case 8:
+        window.alert(`The Month for ${num} is: August`);
+        break;
+    case 9:
+        window.alert(`The Month for ${num} is: September`);
+        break;
+    case 10:
+        window.alert(`The Month for ${num} is: October`);
+        break;
+    case 11:
+        window.alert(`The Month for ${num} is: November`);
+        break;
+    case 12:
+        window.alert(`The Month for ${num} is: December`);
+        break;
+    default:
+        window.alert(`Not a Valid Number!`);
   }
-  else if ( num === 1) {
-      window.alert(`The Month for ${num} is: January`);
-  } 
-  else if ( num === 2) {
-      window.alert(`The Month for ${num} is: February`);
-  } 
-  else if ( num === 3) {
-      window.alert(`The Month for ${num} is: March`);
-  } 
-  else if ( num === 4) {
-      window.alert(`The Month for ${num} is: April`);
-  } 
-  else if ( num === 5) {
-      window.alert(`The Month for ${num} is: May`);
-  } 
-  else if ( num === 6) {
-      window.alert(`The Month for ${num} is: June`);
-  } 
-  else if ( num === 7) {
-      window.alert(`The Month for ${num} is: July`);
-  } 
-  else if ( num === 8) {
-      window.alert(`The Month for ${num} is: August`);
-  } 
-  else if ( num === 9) {
-      window.alert(`The Month for ${num} is: September`);
-  } 
-  else if ( num === 10) {
-      window.alert(`The Month for ${num} is: October`);
-  } 
-  else if ( num === 11) {
-      window.alert(`The Month for ${num} is: November`);
-  } 
-  else if ( num === 12) {
-      window.alert(`The Month for ${num} is: December`);
-  } 
+  
 }
+
 
